@@ -1,0 +1,1640 @@
+[
+  {
+    "id": "asc",
+    "name": "Adventure Science Center",
+    "url": "https://www.adventuresci.org/event-calendar/",
+    "categories": [
+      "STEM/science",
+      "technology",
+      "maker/building"
+    ],
+    "final_url": "https://www.adventuresci.org/event-calendar/",
+    "bytes": 1072419,
+    "signals": {
+      "jsonld": true,
+      "event_schema": true,
+      "tribe": true,
+      "ics": true,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "https://www.adventuresci.org/event-calendar/?ical=1",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fwww.adventuresci.org%2F%3Fpost_type%3Dtribe_events%26tribe-bar-date%3D2026-09-19%26ical%3D1%26eventDisplay%3Dlist",
+      "webcal://www.adventuresci.org/?post_type=tribe_events&#038;tribe-bar-date=2026-09-19&#038;ical=1&#038;eventDisplay=list",
+      "https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&#038;rru=addsubscription&#038;url=webcal%253A%252F%252Fwww.adventuresci.org%252F%253Fpost_type%253Dtribe_events%2526tribe-bar-date%253D2026-09-19%2526eventDisplay%253Dlist%26ical%3D1&#038;name=Adventure+Science+Center+Events+Archive+%7C+Adventure+Science+Center",
+      "https://outlook.live.com/owa?path=%2Fcalendar%2Faction%2Fcompose&#038;rru=addsubscription&#038;url=webcal%253A%252F%252Fwww.adventuresci.org%252F%253Fpost_type%253Dtribe_events%2526tribe-bar-date%253D2026-09-19%2526eventDisplay%253Dlist%26ical%3D1&#038;name=Adventure+Science+Center+Events+Archive+%7C+Adventure+Science+Center",
+      "https://www.adventuresci.org/event-calendar/month/?ical=1",
+      "https://www.adventuresci.org/event-calendar/month/?outlook-ical=1",
+      "https://www.adventuresci.org/wp-content/plugins/the-events-calendar/src/resources/js/views/ical-links.js?ver=6.0.8"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public Tribe API and ICS links verified; paginate. Planetarium sessions recur; some evenings are adults only.",
+    "adapter": "tribe",
+    "enabled": true,
+    "default_categories": [
+      "STEM/science"
+    ],
+    "collection_method": "Public JSON API; ICS alternative",
+    "city": "Nashville",
+    "venue": "Adventure Science Center",
+    "address": "800 Fort Negley Boulevard",
+    "fixed_location": true,
+    "setting": "indoor",
+    "endpoint": "https://www.adventuresci.org/wp-json/tribe/events/v1/events"
+  },
+  {
+    "id": "frist",
+    "name": "Frist Art Museum",
+    "url": "https://fristartmuseum.org/events/",
+    "categories": [
+      "art",
+      "maker/building"
+    ],
+    "final_url": "https://fristartmuseum.org/events/",
+    "bytes": 115316,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static landing page has /event/ detail links plus richer calendar UI. Generic RSS is not necessarily an events feed. Structured detail collector is deliberately bounded.",
+    "adapter": "jsonld",
+    "enabled": true,
+    "default_categories": [
+      "art"
+    ],
+    "collection_method": "Bounded HTML detail pages / JSON-LD",
+    "city": "Nashville",
+    "venue": "Frist Art Museum",
+    "address": "919 Broadway",
+    "fixed_location": true,
+    "setting": "indoor",
+    "detail_pattern": "/event/"
+  },
+  {
+    "id": "cheekwood",
+    "name": "Cheekwood",
+    "url": "https://cheekwood.org/events/",
+    "categories": [
+      "art",
+      "nature",
+      "seasonal events"
+    ],
+    "final_url": "https://cheekwood.org/events/",
+    "bytes": 75618,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "https://cheekwood.org/discover/botanical-garden-arboretum/",
+      "https://cheekwood.org/discover/botanical-garden-arboretum/",
+      "https://cheekwood.org/wp-content/themes/cheekwood/inc/assets/logo/CW_Logo_Vertical_White.svg"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Dated static HTML cards collected from the first page. Load-more results and exact sessions require checking the source. No dated Event JSON-LD was found.",
+    "adapter": "cheekwood",
+    "enabled": true,
+    "default_categories": [
+      "art",
+      "nature"
+    ],
+    "collection_method": "Static HTML event cards, first page",
+    "city": "Nashville",
+    "venue": "Cheekwood",
+    "address": "1200 Forrest Park Drive",
+    "fixed_location": true,
+    "detail_pattern": "/calendar-events/"
+  },
+  {
+    "id": "zoo",
+    "name": "Nashville Zoo",
+    "url": "https://www.nashvillezoo.org/upcoming-events",
+    "categories": [
+      "animals",
+      "seasonal events"
+    ],
+    "final_url": "https://www.nashvillezoo.org/upcoming-events",
+    "bytes": 197531,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static featured-event cards plus paginated Speak calendar. No Event JSON-LD or feed detected on listing. Needs dedicated Speak card/detail adapter. BOOze is distinct from family Boo at the Zoo.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "zoodaily",
+    "name": "Nashville Zoo daily programs",
+    "url": "https://www.nashvillezoo.org/today-at-the-zoo",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "final_url": "https://www.nashvillezoo.org/today-at-the-zoo",
+    "bytes": 239384,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Paginated Speak calendar contains hundreds of keeper chats. Dedicated adapter needed to follow dates and pages; avoid treating repetitive chats as distinct activity types.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "npl",
+    "name": "Nashville Public Library",
+    "url": "https://events.library.nashville.org/",
+    "categories": [
+      "technology",
+      "gaming",
+      "maker/building",
+      "art"
+    ],
+    "error": "HTTP Error 404: Not Found",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Original /calendars URL failed. Root calendar is Bedework; supported JSON/RSS/ICS export verified. 200-event cap; split date windows recursively. Branch location and audience categories included.",
+    "adapter": "bedework",
+    "enabled": true,
+    "default_categories": [],
+    "collection_method": "Supported JSON export; RSS/ICS alternatives",
+    "endpoint": "https://events.library.nashville.org/feeder/main/eventsFeed.do"
+  },
+  {
+    "id": "cmhof",
+    "name": "Country Music Hall of Fame",
+    "url": "https://www.countrymusichalloffame.org/experiences/calendar",
+    "categories": [
+      "music",
+      "history",
+      "maker/building"
+    ],
+    "final_url": "https://www.countrymusichalloffame.org/experiences/calendar",
+    "bytes": 196409,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Craft-based calendar UI exposes some /calendar/ links but main list is dynamically populated. Family programs, Hatch Show Print and music. Needs public calendar endpoint investigation; no feed verified.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "museum",
+    "name": "Tennessee State Museum",
+    "url": "https://tnmuseum.org/calendar-of-events",
+    "categories": [
+      "history",
+      "art"
+    ],
+    "final_url": "https://tnmuseum.org/calendar-of-events",
+    "bytes": 58283,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static calendar page with embedded components; no feed/schema detected. Dedicated dated-card adapter needed.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "discovery",
+    "name": "Discovery Center at Murfree Spring",
+    "url": "https://www.explorethedc.org/events",
+    "categories": [
+      "STEM/science",
+      "nature",
+      "animals"
+    ],
+    "final_url": "https://www.explorethedc.org/calendar/",
+    "bytes": 726464,
+    "signals": {
+      "jsonld": true,
+      "event_schema": true,
+      "tribe": true,
+      "ics": true,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://www.explorethedc.org/calendar/?ical=1",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fwww.explorethedc.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist",
+      "webcal://www.explorethedc.org/?post_type=tribe_events&#038;ical=1&#038;eventDisplay=list",
+      "https://outlook.office.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fwww.explorethedc.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Discovery+Center+at+Murfree+Spring+Events+Archive+-+Discovery+Center+at+Murfree+Spring",
+      "https://outlook.live.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fwww.explorethedc.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Discovery+Center+at+Murfree+Spring+Events+Archive+-+Discovery+Center+at+Murfree+Spring",
+      "https://www.explorethedc.org/calendar/month/?ical=1",
+      "https://www.explorethedc.org/calendar/month/?outlook-ical=1",
+      "https://www.explorethedc.org/wp-content/plugins/the-events-calendar/build/js/views/ical-links.js?ver=0dadaa0667a03645aee4"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Redirects to /calendar/. Public Tribe API and ICS verified. Exclude closure notices and toddler-specific programming.",
+    "adapter": "tribe",
+    "enabled": true,
+    "default_categories": [
+      "STEM/science"
+    ],
+    "collection_method": "Public JSON API; ICS alternative",
+    "city": "Murfreesboro",
+    "venue": "Discovery Center at Murfree Spring",
+    "address": "502 SE Broad Street",
+    "fixed_location": true,
+    "endpoint": "https://www.explorethedc.org/wp-json/tribe/events/v1/events"
+  },
+  {
+    "id": "nct",
+    "name": "Nashville Children’s Theatre",
+    "url": "https://nashvillechildrenstheatre.org/whats-on/",
+    "categories": [
+      "theater"
+    ],
+    "final_url": "https://nashvillechildrenstheatre.org/whats-on/",
+    "bytes": 279349,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://nashvillechildrenstheatre.org/production/polkadots-the-cool-kids-musical/",
+      "https://nashvillechildrenstheatre.org/production/polkadots-the-cool-kids-musical/",
+      "https://nashvillechildrenstheatre.org/production/polkadots-the-cool-kids-musical/"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static production pages; Agile ticketing for individual performances and Imperisoft for classes. Run date spans must not be mistaken for daily shows; use booking links manually.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "symphony",
+    "name": "Nashville Symphony",
+    "url": "https://www.nashvillesymphony.org/tickets/calendar/",
+    "categories": [
+      "music"
+    ],
+    "final_url": "https://www.nashvillesymphony.org/",
+    "bytes": 50760,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "https://www.nashvillesymphony.org:443/venue-rentals/our-spaces/technical-info-diagrams/"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Schedule HTML and embedded ticketing; dedicated performance adapter needed. Family concert series is especially relevant; no public API verified.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "tpac",
+    "name": "Tennessee Performing Arts Center",
+    "url": "https://www.tpac.org/events",
+    "categories": [
+      "theater",
+      "music"
+    ],
+    "final_url": "https://www.tpac.org/events",
+    "bytes": 22266,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public event listings; dedicated dated-detail adapter needed. School-only Season for Young People should not be treated as public tickets.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "warner",
+    "name": "Friends of Warner Parks",
+    "url": "https://warnerparks.org/events/",
+    "categories": [
+      "nature",
+      "volunteering/community"
+    ],
+    "final_url": "https://warnerparks.org/events/",
+    "bytes": 283119,
+    "signals": {
+      "jsonld": true,
+      "event_schema": true,
+      "tribe": true,
+      "ics": true,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://warnerparks.org/events/?ical=1",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fwarnerparks.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist",
+      "webcal://warnerparks.org/?post_type=tribe_events&#038;ical=1&#038;eventDisplay=list",
+      "https://outlook.office.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fwarnerparks.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Friends+of+Warner+Parks+Events+Archive+-+Friends+of+Warner+Parks",
+      "https://outlook.live.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fwarnerparks.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Friends+of+Warner+Parks+Events+Archive+-+Friends+of+Warner+Parks",
+      "https://warnerparks.org/events/list/?ical=1",
+      "https://warnerparks.org/events/list/?outlook-ical=1"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public Tribe API and ICS verified. Nature programs, service days and some adults-only events. Age and registration details vary.",
+    "adapter": "tribe",
+    "enabled": true,
+    "default_categories": [
+      "nature"
+    ],
+    "collection_method": "Public JSON API; ICS alternative",
+    "setting": "outdoor",
+    "endpoint": "https://warnerparks.org/wp-json/tribe/events/v1/events"
+  },
+  {
+    "id": "shelby",
+    "name": "Shelby Bottoms Nature Center",
+    "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/programs-and-services",
+    "categories": [
+      "nature",
+      "animals"
+    ],
+    "final_url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/programs-and-services",
+    "bytes": 130481,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Official program page links full schedules, sometimes PDFs. Junior Naturalist programs target 6–12. Manual PDF review until dated-event extraction is validated.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "beaman",
+    "name": "Beaman Park Nature Center",
+    "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/beaman-park-nature-center",
+    "categories": [
+      "nature"
+    ],
+    "final_url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/beaman-park-nature-center",
+    "bytes": 128945,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Official nature center page; schedules may be linked PDF or city events. Manual schedule review; no machine event feed verified.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "longhunter",
+    "name": "Long Hunter State Park",
+    "url": "https://tnstateparks.com/parks/events/long-hunter",
+    "categories": [
+      "nature",
+      "physical adventure"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "State park event URL returned HTTP 403. Do not bypass. Use official page manually and Friends of Long Hunter as supplemental source.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "radnor",
+    "name": "Radnor Lake State Park",
+    "url": "https://tnstateparks.com/parks/events/radnor-lake",
+    "categories": [
+      "nature",
+      "animals"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "State park event URL returned HTTP 403. Manual calendar/registration check; aviary programs add animal coverage.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "cedars",
+    "name": "Cedars of Lebanon State Park",
+    "url": "https://tnstateparks.com/parks/events/cedars-of-lebanon",
+    "categories": [
+      "nature",
+      "animals",
+      "seasonal events"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "State park event URL returned HTTP 403. Manual calendar/registration check; nature, farm demonstrations and seasonal activities.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "bledsoe",
+    "name": "Bledsoe Creek State Park",
+    "url": "https://tnstateparks.com/parks/events/bledsoe-creek",
+    "categories": [
+      "nature",
+      "sports"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "State park event URL returned HTTP 403. Manual calendar/registration check; fishing and nature programs.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "montgomery",
+    "name": "Montgomery Bell State Park",
+    "url": "https://tnstateparks.com/parks/events/montgomery-bell",
+    "categories": [
+      "nature",
+      "physical adventure"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "State park event URL returned HTTP 403. Manual check; western edge of approximate drive area.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "longfriends",
+    "name": "Friends of Long Hunter",
+    "url": "https://www.friendsoflonghunter.com/events/",
+    "categories": [
+      "nature",
+      "volunteering/community"
+    ],
+    "final_url": "https://www.friendsoflonghunter.com/events/",
+    "bytes": 9566,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static monthly narrative program listing; search index shows per-event ICS links, but no feed link detected in fetched HTML. Dedicated date parser or manual import needed.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "owl",
+    "name": "Owl’s Hill Nature Sanctuary",
+    "url": "https://www.owlshill.org/events",
+    "categories": [
+      "nature",
+      "animals"
+    ],
+    "final_url": "https://www.owlshill.org/contact_us",
+    "bytes": 172064,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://www.owlshill.org/feed/rss2"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static event page; generic RSS discovered but not verified as event dates. Nature/animal program detail adapter needed.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "make",
+    "name": "Make Nashville",
+    "url": "https://makenashville.org/",
+    "categories": [
+      "maker/building",
+      "technology"
+    ],
+    "final_url": "https://makenashville.org/",
+    "bytes": 18082,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static makerspace website; open-house and workshop listings require specific calendar discovery. Child access excludes dangerous shops; supervision/waiver rules matter.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "adventurepark",
+    "name": "Adventure Park at Nashville",
+    "url": "https://myadventurepark.com/location/nashville-tn/",
+    "categories": [
+      "physical adventure",
+      "unusual experiences"
+    ],
+    "final_url": "https://myadventurepark.com/location/nashville-tn/",
+    "bytes": 131064,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Venue/booking site with iframe. Reservation inventory is dynamic; retain as anytime-activity lead, not fabricated scheduled event.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "climb",
+    "name": "Climb Nashville",
+    "url": "https://www.climbnashville.com/",
+    "categories": [
+      "sports",
+      "physical adventure"
+    ],
+    "final_url": "https://theclimbgyms.com/",
+    "bytes": 68814,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Venue website and booking widgets. Youth sessions need booking-specific collector and height/waiver checks.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "sounds",
+    "name": "Nashville Sounds",
+    "url": "https://www.milb.com/nashville/schedule",
+    "categories": [
+      "sports"
+    ],
+    "final_url": "https://www.milb.com/nashville/schedule",
+    "bytes": 444306,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Dynamic schedule page, but public MLB StatsAPI returned Nashville team 556 schedule. Keep home games only; schedule does not include ticket prices.",
+    "adapter": "mlb",
+    "enabled": true,
+    "default_categories": [
+      "sports"
+    ],
+    "collection_method": "Public sports JSON endpoint",
+    "setting": "outdoor",
+    "endpoint": "https://statsapi.mlb.com/api/v1/schedule?sportId=11&teamId=556",
+    "team_id": 556
+  },
+  {
+    "id": "nsc",
+    "name": "Nashville SC",
+    "url": "https://www.nashvillesc.com/schedule/",
+    "categories": [
+      "sports"
+    ],
+    "final_url": "https://www.nashvillesc.com/schedule/",
+    "bytes": 165598,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Dynamic club schedule; no verified public endpoint in this pass. Manual schedule link; tickets vary.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "predators",
+    "name": "Nashville Predators",
+    "url": "https://www.nhl.com/predators/schedule",
+    "categories": [
+      "sports"
+    ],
+    "final_url": "https://www.nhl.com/predators/schedule",
+    "bytes": 123306,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Dynamic schedule page; NHL club schedule endpoint returned structured JSON. Query weekly windows and keep NSH home games.",
+    "adapter": "nhl",
+    "enabled": true,
+    "default_categories": [
+      "sports"
+    ],
+    "collection_method": "Public sports JSON endpoint",
+    "setting": "indoor",
+    "endpoint": "https://api-web.nhle.com/v1/club-schedule/NSH/week/{date}"
+  },
+  {
+    "id": "flour",
+    "name": "Flour Power Brentwood",
+    "url": "https://flourpowerstudios.com/locations/brentwood/",
+    "categories": [
+      "cooking"
+    ],
+    "error": "HTTP Error 404: Not Found",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Candidate Brentwood location URL failed. Use national location finder https://flourpowerstudios.com/ to confirm local studio and booking platform before adding collector.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "juniorchef",
+    "name": "The Curious Kitchen",
+    "url": "https://www.thecuriouskitchen.net/",
+    "categories": [
+      "cooking"
+    ],
+    "final_url": "https://thecuriouskitchen.net/",
+    "bytes": 66525,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static cooking-school site with generic RSS; class booking/calendar needs separate verification. Do not assume every class allows age 10.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "handson",
+    "name": "Hands On Nashville / United Way",
+    "url": "https://handson.unitedwaygreaternashville.org/calendar",
+    "categories": [
+      "volunteering/community"
+    ],
+    "final_url": "https://handson.unitedwaygreaternashville.org/calendar",
+    "bytes": 108905,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Volunteer calendar uses dynamic signup interface. Need opportunity-level minimum age and guardian requirements. Manual browse/import in v1.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "secondharvest",
+    "name": "Second Harvest Middle Tennessee",
+    "url": "https://www.secondharvestmidtn.org/act/volunteer/",
+    "categories": [
+      "volunteering/community"
+    ],
+    "final_url": "https://www.secondharvestmidtn.org/get-involved/volunteer/",
+    "bytes": 118080,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Official volunteer page with signup widget. Age limits differ by shift; do not infer eligibility from family wording elsewhere on site.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "foodproject",
+    "name": "Nashville Food Project",
+    "url": "https://www.thenashvillefoodproject.org/events-calendar",
+    "categories": [
+      "volunteering/community",
+      "cooking"
+    ],
+    "final_url": "https://www.thenashvillefoodproject.org/events-calendar",
+    "bytes": 978996,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": true,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-2ml7m-wzy49-xwbp5-zycbb-sekkr-fz5f9-e8y5y-fabc9?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5-k8az5?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-2ml7m-wzy49-xwbp5-zycbb-sekkr-fz5f9-e8y5y-fabc9-dl7nw?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5-k8az5-ff4jl?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-2ml7m-wzy49-xwbp5-zycbb-sekkr-fz5f9-e8y5y-fabc9-dl7nw-znzlh?format=ical",
+      "/events-calendar/2026/9/19/canning-pickling-workshop?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5-k8az5-ff4jl-c95ad?format=ical",
+      "/events-calendar/2026/8/20/first-taste-an-introduction-to-the-nashville-food-project-6mmag?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-2ml7m-wzy49-xwbp5-zycbb-sekkr-fz5f9-e8y5y-fabc9-dl7nw-znzlh-2688t?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5-k8az5-ff4jl-c95ad-sdeyx?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-2ml7m-wzy49-xwbp5-zycbb-sekkr-fz5f9-e8y5y-fabc9-dl7nw-znzlh-2688t-r5rxs?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5-k8az5-ff4jl-c95ad-sdeyx-l83sf?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-2ml7m-wzy49-xwbp5-zycbb-sekkr-fz5f9-e8y5y-fabc9-dl7nw-znzlh-2688t-r5rxs-kyjhy?format=ical",
+      "/events-calendar/2026/5/2/growing-together-farmers-market-opening-day-r3e9k-knwmb-yst86-msmab-7khjw-ndjss-m8cpf-2nlte-t8wkd-bb5c6-pyk44-j93m5-k8az5-ff4jl-c95ad-sdeyx-l83sf-2dfya?format=ical"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Squarespace JSON response verified at ?format=json, with upcoming/past arrays rather than generic items. First-page collector; opportunities require age confirmation.",
+    "adapter": "squarespace",
+    "enabled": true,
+    "default_categories": [
+      "volunteering/community"
+    ],
+    "collection_method": "Squarespace public JSON",
+    "endpoint": "https://www.thenashvillefoodproject.org/events-calendar?format=json"
+  },
+  {
+    "id": "franklin",
+    "name": "Visit Franklin",
+    "url": "https://visitfranklin.com/events/",
+    "categories": [
+      "festivals/cultures",
+      "history",
+      "seasonal events"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Event directory request failed in this probe; useful official tourism source. Retry only normal public access; no feed verified.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "sumner",
+    "name": "Visit Sumner",
+    "url": "https://visitsumnertn.com/events/",
+    "categories": [
+      "festivals/cultures",
+      "general fun"
+    ],
+    "final_url": "https://visitsumnertn.com/events/",
+    "bytes": 133599,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public WordPress event landing page with generic RSS but no Event schema detected. Dedicated detail/calendar investigation needed.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "rutherford",
+    "name": "Visit Rutherford",
+    "url": "https://visitrutherfordtn.com/events/",
+    "categories": [
+      "history",
+      "festivals/cultures"
+    ],
+    "final_url": "https://visitrutherfordtn.com/events/",
+    "bytes": 110721,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "https://www.google.com/maps/place/3050+Medical+Center+Pkwy,+Murfreesboro,+TN+37129/data=!4m2!3m1!1s0x88640826229135b3:0x7df5e9f29fbc77a8?sa=X&amp;ved=2ahUKEwiaybTJlNzzAhWQJzQIHVCVCFoQ8gF6BAgXEAE"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public tourism events page; dynamic or custom listing. No event feed verified. Broad eastern/southeastern coverage.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "wilson",
+    "name": "Visit Wilson",
+    "url": "https://www.visitwilsoncounty.com/events/",
+    "categories": [
+      "festivals/cultures",
+      "seasonal events"
+    ],
+    "error": "HTTP Error 404: Not Found",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Candidate event URL failed. Verify current tourism calendar before implementing; eastern drive boundary varies.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "hermitage",
+    "name": "The Hermitage",
+    "url": "https://thehermitage.com/events/",
+    "categories": [
+      "history",
+      "unusual experiences"
+    ],
+    "final_url": "https://thehermitage.com/events/",
+    "bytes": 81392,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public event page; bespoke dates/ticketing. History and seasonal tours; dedicated card parser needed.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "bellemeade",
+    "name": "Belle Meade Historic Site",
+    "url": "https://visitbellemeade.com/",
+    "categories": [
+      "history"
+    ],
+    "final_url": "https://visitbellemeade.com/",
+    "bytes": 197656,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static official site and booking links. Family tours should be separated from wine experiences. Anytime lead in v1.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "tennrail",
+    "name": "Tennessee Central Railway Museum",
+    "url": "https://www.tcry.org/",
+    "categories": [
+      "history",
+      "unusual experiences"
+    ],
+    "final_url": "https://www.tcry.org/",
+    "bytes": 233582,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": true,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Squarespace static excursion pages and booking links. Departure and return times matter; excursion travel duration is not drive-to-venue time.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "stones",
+    "name": "Stones River National Battlefield",
+    "url": "https://www.nps.gov/stri/planyourvisit/calendar.htm",
+    "categories": [
+      "history",
+      "nature"
+    ],
+    "final_url": "https://www.nps.gov/stri/planyourvisit/calendar.htm",
+    "bytes": 35367,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "/common/commonspot/templates/assets/images/branding/lockup-reverse-vertical.svg"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "NPS calendar UI; NPS public API normally requires an API key. No key configured; manual official calendar in v1.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "lucky",
+    "name": "Lucky Ladd Farms",
+    "url": "https://luckyladdfarms.com/",
+    "categories": [
+      "animals",
+      "seasonal events"
+    ],
+    "final_url": "https://luckyladdfarms.com/",
+    "bytes": 54492,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static seasonal farm site plus booking widgets. Opening dates and age/height rules require dedicated adapter; retain as seasonal lead.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "gentry",
+    "name": "Gentry’s Farm",
+    "url": "https://www.gentryfarm.com/",
+    "categories": [
+      "animals",
+      "seasonal events"
+    ],
+    "final_url": "https://www.gentryfarm.com/",
+    "bytes": 235348,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": true,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://images.squarespace-cdn.com/content/v1/5398d65be4b0a7cd591a0ae7/4e6c65cf-f1b9-45ec-9e43-70a380ee44bd/Historical+Commision+Photos+WM-994.1+-+1980%27s.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5398d65be4b0a7cd591a0ae7/4e6c65cf-f1b9-45ec-9e43-70a380ee44bd/Historical+Commision+Photos+WM-994.1+-+1980%27s.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5398d65be4b0a7cd591a0ae7/849c7c3e-38aa-47e4-9c5e-3bee33d2cd42/Historical+Commision+Photos-+1980%27s.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5398d65be4b0a7cd591a0ae7/849c7c3e-38aa-47e4-9c5e-3bee33d2cd42/Historical+Commision+Photos-+1980%27s.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5398d65be4b0a7cd591a0ae7/aee0766c-8422-465d-b774-0f349c099a11/Historical+Commision+1980%27s+-+Smokehouse.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5398d65be4b0a7cd591a0ae7/aee0766c-8422-465d-b774-0f349c099a11/Historical+Commision+1980%27s+-+Smokehouse.jpeg"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Squarespace seasonal farm site. Date ranges and opening-day exceptions need review; do not manufacture daily sessions.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "plaza",
+    "name": "Plaza Mariachi",
+    "url": "https://plazamariachi.com/events/",
+    "categories": [
+      "festivals/cultures",
+      "music",
+      "general fun"
+    ],
+    "final_url": "https://plazamariachi.com/events/",
+    "bytes": 184183,
+    "signals": {
+      "jsonld": true,
+      "event_schema": true,
+      "tribe": true,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public Tribe API verified. Cultural performances, markets and family activities; verify late-night age limits and source timezone.",
+    "adapter": "tribe",
+    "enabled": true,
+    "default_categories": [
+      "festivals/cultures"
+    ],
+    "collection_method": "Public JSON API; ICS alternative",
+    "city": "Nashville",
+    "venue": "Plaza Mariachi",
+    "address": "3955 Nolensville Pike",
+    "fixed_location": true,
+    "endpoint": "https://plazamariachi.com/wp-json/tribe/events/v1/events"
+  },
+  {
+    "id": "celebrate",
+    "name": "Celebrate Nashville Cultural Festival",
+    "url": "https://celebratenashville.org/",
+    "categories": [
+      "festivals/cultures"
+    ],
+    "final_url": "https://celebratenashville.org/",
+    "bytes": 289434,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static official annual-festival page. Dedicated annual-date parser needed; never roll a past year forward automatically.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "gamepoint",
+    "name": "Game Point Cafe",
+    "url": "https://gamepointcafe.com/events/",
+    "categories": [
+      "gaming"
+    ],
+    "final_url": "https://gamepointcafe.com/events/",
+    "bytes": 261476,
+    "signals": {
+      "jsonld": true,
+      "event_schema": true,
+      "tribe": true,
+      "ics": true,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://gamepointcafe.com/events/?ical=1",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fgamepointcafe.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist",
+      "webcal://gamepointcafe.com/?post_type=tribe_events&#038;ical=1&#038;eventDisplay=list",
+      "https://outlook.office.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fgamepointcafe.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Game+Point+Events+Archive+-+Game+Point",
+      "https://outlook.live.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fgamepointcafe.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Game+Point+Events+Archive+-+Game+Point",
+      "https://gamepointcafe.com/events/list/?ical=1",
+      "https://gamepointcafe.com/events/list/?outlook-ical=1",
+      "https://gamepointcafe.com/wp-content/plugins/the-events-calendar/build/js/views/ical-links.js"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Public Tribe API and ICS verified. Board-game events broaden coverage; confirm reading/complexity and age rules.",
+    "adapter": "tribe",
+    "enabled": true,
+    "default_categories": [
+      "gaming"
+    ],
+    "collection_method": "Public JSON API; ICS alternative",
+    "city": "Nashville",
+    "venue": "Game Point Cafe",
+    "address": "107 S 11th Street",
+    "fixed_location": true,
+    "setting": "indoor",
+    "endpoint": "https://gamepointcafe.com/wp-json/tribe/events/v1/events"
+  },
+  {
+    "id": "tabletops",
+    "name": "Nashville Tabletop Day",
+    "url": "https://nashvilletabletopday.com/",
+    "categories": [
+      "gaming"
+    ],
+    "final_url": "https://nashvilletabletopday.com/",
+    "bytes": 212412,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "https://www.meeplemountain.com/category/medical-board-games/",
+      "https://www.meeplemountain.com/category/nautical-board-games/",
+      "https://www.meeplemountain.com/category/political-board-games/"
+    ],
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Static WordPress annual gaming-event site with generic RSS. Confirm current-year date; do not infer recurrence.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "homeworkshop",
+    "name": "Home Depot Kids Workshops",
+    "url": "https://www.homedepot.com/c/kids",
+    "categories": [
+      "maker/building"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Retail workshop page blocked/failed. Registration and local store availability are dynamic; manual link only.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "parent",
+    "name": "Nashville Parent",
+    "url": "https://nashvilleparent.com/events/",
+    "categories": [
+      "general fun"
+    ],
+    "final_url": "https://nashvilleparent.com/events/",
+    "bytes": 321313,
+    "signals": {
+      "jsonld": true,
+      "event_schema": true,
+      "tribe": true,
+      "ics": true,
+      "rss": true,
+      "squarespace": false,
+      "libcal": true,
+      "libnet": true,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://nashvilleparent.com/events/?ical=1",
+      "/directories/?category=health-medical",
+      "/directories/?category=health-medical",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fnashvilleparent.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist",
+      "webcal://nashvilleparent.com/?post_type=tribe_events&#038;ical=1&#038;eventDisplay=list",
+      "https://outlook.office.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fnashvilleparent.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Nashville+Parent+Events+Archive+-+Nashville+Parent",
+      "https://outlook.live.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fnashvilleparent.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&#038;name=Nashville+Parent+Events+Archive+-+Nashville+Parent",
+      "https://nashvilleparent.com/events/list/?ical=1",
+      "https://nashvilleparent.com/events/list/?outlook-ical=1",
+      "https://nashvilleparent.com/wp-content/plugins/the-events-calendar/build/js/views/ical-links.js?ver=0dadaa0667a03645aee4"
+    ],
+    "official": false,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Useful broad aggregator; public Tribe API and ICS verified. 685 records in initial six-week API query; pagination is essential. Prefer official facts on duplicates.",
+    "adapter": "tribe",
+    "enabled": true,
+    "default_categories": [],
+    "collection_method": "Public JSON API; ICS alternative",
+    "endpoint": "https://nashvilleparent.com/wp-json/tribe/events/v1/events"
+  },
+  {
+    "id": "nowplaying",
+    "name": "NowPlayingNashville",
+    "url": "https://www.nowplayingnashville.com/",
+    "categories": [
+      "general fun"
+    ],
+    "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+    "official": false,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Aggregator timed out in probe. Broad performing-arts coverage but no usable feed verified.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "koaa",
+    "name": "Kids Out and About Nashville",
+    "url": "https://nashville.kidsoutandabout.com/",
+    "categories": [
+      "general fun"
+    ],
+    "final_url": "https://nashville.kidsoutandabout.com/",
+    "bytes": 141138,
+    "signals": {
+      "jsonld": false,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": false,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": true
+    },
+    "feed_links": [
+      "/content/drama-and-musical-theater-summer-camps-nashville",
+      "/content/drama-musical-theater-classes-nashville-area",
+      "/content/drama-and-musical-theater-summer-camps-nashville",
+      "/content/drama-musical-theater-classes-nashville-area"
+    ],
+    "official": false,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "Drupal-style aggregator with event dates, ages and locations. Dedicated list/detail pagination needed; distinguish remote and out-of-area listings.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "guru",
+    "name": "Nashville Guru",
+    "url": "https://nashvilleguru.com/nashville-events",
+    "categories": [
+      "general fun"
+    ],
+    "final_url": "https://nashvilleguru.com/nashville-events",
+    "bytes": 228992,
+    "signals": {
+      "jsonld": true,
+      "event_schema": false,
+      "tribe": false,
+      "ics": false,
+      "rss": true,
+      "squarespace": false,
+      "libcal": false,
+      "libnet": false,
+      "iframe": false
+    },
+    "feed_links": [
+      "https://nauticalboatclub.com/nashville-tennesse-percy-priest-lake/",
+      "https://nashvilleguru.com/officialwebsite/wp-content/uploads/2022/07/Nautical-Boat-Club-Discount-800x533.jpg"
+    ],
+    "official": false,
+    "checked_on": "2026-09-19",
+    "discovery_status": 200,
+    "notes": "WordPress editorial calendar; generic RSS gives article publication dates, not event dates. Dedicated event parser/manual browse only.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  },
+  {
+    "id": "musiccity",
+    "name": "Visit Music City",
+    "url": "https://www.visitmusiccity.com/things-to-do-in-nashville/events",
+    "categories": [
+      "festivals/cultures",
+      "general fun"
+    ],
+    "error": "HTTP Error 403: Forbidden",
+    "official": true,
+    "checked_on": "2026-09-19",
+    "discovery_status": "error",
+    "notes": "Official tourism directory request failed. Useful discovery lead; no API/feed verified.",
+    "adapter": "manual",
+    "enabled": false,
+    "default_categories": [],
+    "collection_method": "Manual / dedicated adapter needed — see notes"
+  }
+]

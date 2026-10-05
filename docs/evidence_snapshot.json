@@ -1,0 +1,46 @@
+{
+  "evidence_date": "2026-09-24",
+  "source_run": {
+    "run_id": "20260920T010059668674Z",
+    "as_of": "2026-09-19",
+    "through": "2026-10-30",
+    "offline": true
+  },
+  "pipeline_counts": {
+    "sources_researched": 53,
+    "configured_collectors": 12,
+    "raw_records": 1058,
+    "included_before_deduplication": 871,
+    "final_events": 870,
+    "rejected_records": 187
+  },
+  "quality_counts": {
+    "official_source_events": 333,
+    "events_with_affirmative_age_evidence": 269,
+    "events_with_stated_cost": 382,
+    "events_explicitly_free": 6,
+    "events_with_stated_registration_requirement": 53,
+    "events_with_unknown_distance": 40,
+    "events_with_precise_non_city-center_distance_basis": 51
+  },
+  "top_categories": [
+    {"category": "art", "events": 441},
+    {"category": "music", "events": 299},
+    {"category": "STEM/science", "events": 241},
+    {"category": "festivals/cultures", "events": 223},
+    {"category": "seasonal events", "events": 206},
+    {"category": "theater", "events": 186}
+  ],
+  "source_concentration": [
+    {"source": "Nashville Parent", "events": 537},
+    {"source": "Adventure Science Center", "events": 150},
+    {"source": "Discovery Center at Murfree Spring", "events": 53},
+    {"source": "Plaza Mariachi", "events": 51},
+    {"source": "Game Point Cafe", "events": 25}
+  ],
+  "test_result": {
+    "tests_run": 11,
+    "tests_passed": 11,
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "lookahead_days": 42,
+  "max_drive_minutes": 75,
+  "origin": {
+    "label": "Downtown Nashville (public reference point)",
+    "lat": 36.1627,
+    "lon": -86.7816
+  },
+  "road_factor": 1.3,
+  "average_mph": 40,
+  "local_overhead_minutes": 10,
+  "city_centers": {
+    "nashville": [
+      36.1627,
+      -86.7816
+    ],
+    "franklin": [
+      35.9251,
+      -86.8689
+    ],
+    "brentwood": [
+      36.0331,
+      -86.7828
+    ],
+    "murfreesboro": [
+      35.8456,
+      -86.3903
+    ],
+    "smyrna": [
+      35.9828,
+      -86.5186
+    ],
+    "la vergne": [
+      36.0156,
+      -86.5819
+    ],
+    "lebanon": [
+      36.2081,
+      -86.2911
+    ],
+    "mount juliet": [
+      36.2001,
+      -86.5186
+    ],
+    "mt. juliet": [
+      36.2001,
+      -86.5186
+    ],
+    "gallatin": [
+      36.3884,
+      -86.4467
+    ],
+    "hendersonville": [
+      36.3048,
+      -86.62
+    ],
+    "goodlettsville": [
+      36.3231,
+      -86.7133
+    ],
+    "white house": [
+      36.47,
+      -86.6514
+    ],
+    "springfield": [
+      36.5092,
+      -86.885
+    ],
+    "ashland city": [
+      36.2742,
+      -87.0642
+    ],
+    "kingston springs": [
+      36.102,
+      -87.115
+    ],
+    "fairview": [
+      35.982,
+      -87.1214
+    ],
+    "dickson": [
+      36.077,
+      -87.3878
+    ],
+    "columbia": [
+      35.6151,
+      -87.0353
+    ],
+    "spring hill": [
+      35.7512,
+      -86.93
+    ],
+    "nolensville": [
+      35.9523,
+      -86.6694
+    ],
+    "hermitage": [
+      36.196,
+      -86.622
+    ],
+    "madison": [
+      36.256,
+      -86.714
+    ],
+    "old hickory": [
+      36.259,
+      -86.648
+    ],
+    "bellevue": [
+      36.072,
+      -86.952
+    ],
+    "eagleville": [
+      35.741,
+      -86.649
+    ],
+    "arrington": [
+      35.868,
+      -86.709
+    ],
+    "portland": [
+      36.582,
+      -86.517
+    ],
+    "chapel hill": [
+      35.626,
+      -86.693
+    ],
+    "clarksville": [
+      36.53,
+      -87.359
+    ]
+  }
+}
